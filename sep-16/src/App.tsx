@@ -1,10 +1,11 @@
-import Button from "./Button";
-function App() {
+import "./App.css";
+import Cart from "./Cart/Cart";
+export default function App() {
   return (
-    <div>
-      <h1>Welcome to react Fundamentals</h1>
-      <Button />
+    <div className="App">
+      <header>
+        <h1>Thinking in react</h1>
+      </header>
     </div>
   );
 }
-export default App;
